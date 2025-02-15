@@ -9,9 +9,10 @@ class OverlayMenu {
     isActive: "is-active",
     isLock: "is-lock",
   }
+
   constructor() {
     this.rootElement = document.querySelector(this.selectors.root)
-    this.dialogElelment = this.rootElement.querySelector(this.selectors.dialog)
+    this.dialogElement = this.rootElement.querySelector(this.selectors.dialog)
     this.burgerButtonElement = this.rootElement.querySelector(
       this.selectors.burgerButton,
     )
@@ -20,7 +21,7 @@ class OverlayMenu {
 
   onBurgerButtonClick = () => {
     this.burgerButtonElement.classList.toggle(this.stateClasses.isActive)
-    this.dialogElelment.open = !this.dialogElelment.open
+    this.dialogElement.open = !this.dialogElement.open
     document.documentElement.classList.toggle(this.stateClasses.isLock)
   }
 

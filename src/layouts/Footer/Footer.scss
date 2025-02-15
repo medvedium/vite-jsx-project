@@ -49,8 +49,42 @@
       row-gap: 20px;
     }
 
+    &-links {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     &-link {
       color: var(--color-gray-60);
+      padding-inline: 20px;
+      position: relative;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 100%;
+        background-color: var(--color-gray-60);
+        position: absolute;
+        right: 0;
+      }
+
+      @include mobile {
+        padding-inline: 16px;
+      }
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+        &::after {
+          content: none;
+        }
+      }
     }
   }
 }
