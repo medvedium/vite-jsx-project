@@ -4,22 +4,93 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Header and Footer done">
-      <change afterPath="$PROJECT_DIR$/src/sections/Hero/Hero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Hero/Hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Hero/index.js" afterDir="false" />
+    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Hero section done">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/action/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/action/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/action/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/action/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Accordion/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AccordionGroup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CategoryCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeviceCard/DeviceCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeviceCard/DeviceCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeviceCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Grid/Grid.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Grid/Grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Grid/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PlanCard/PlanCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PlanCard/PlanCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PlanCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Slider/Slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Slider/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs/utils/getTabsElementsIdsFromTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Section/Section.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Section/Section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Section/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/SliderCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/TabsCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/generic/BaseComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Banner/Banner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Banner/Banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Banner/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Categories/Categories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Categories/Categories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Categories/categoryItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Categories/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Devices/Devices.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Devices/Devices.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Devices/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Plans/Plans.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Plans/Plans.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Plans/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Plans/planGroups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Questions/Questions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Questions/Questions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Questions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getAttrNameFromSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getIdFromTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/pxToRem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/OverlayMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/OverlayMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Content/Content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="MyReactComponent.jsx.child.0" />
+        <option value="MyReactComponent.jsx.child.1" />
+        <option value="MyReactComponent" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,29 +112,40 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.TabsCollection.js.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.11.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.13.2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/frontender/www/stream-vibe&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/frontender/www/stream-vibe/src/assets/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/frontender/www/stream-vibe/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
       </set>
     </attachedChunks>
   </component>
@@ -77,7 +159,18 @@
       <updated>1739394881567</updated>
       <workItem from="1739394882654" duration="40091000" />
       <workItem from="1739530601681" duration="978000" />
-      <workItem from="1739541801363" duration="5046000" />
+      <workItem from="1739541801363" duration="24847000" />
+      <workItem from="1739785524687" duration="1119000" />
+      <workItem from="1739791560376" duration="33000" />
+      <workItem from="1739793094632" duration="436000" />
+      <workItem from="1739815374106" duration="7719000" />
+      <workItem from="1739907139348" duration="5171000" />
+      <workItem from="1739948249416" duration="478000" />
+      <workItem from="1739948733706" duration="1260000" />
+      <workItem from="1740051130751" duration="1563000" />
+      <workItem from="1740299885661" duration="10355000" />
+      <workItem from="1740516183045" duration="11929000" />
+      <workItem from="1740575515243" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="Main structure done">
       <option name="closed" value="true" />
@@ -103,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739541837048</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hero section done">
+      <option name="closed" value="true" />
+      <created>1739624460474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739624460474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +213,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main structure done" />
     <MESSAGE value="Header and Footer done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header and Footer done" />
+    <MESSAGE value="Hero section done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hero section done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/sections/Categories/categoryItems.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

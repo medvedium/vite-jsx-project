@@ -4,6 +4,7 @@
   column-gap: 4px;
   padding: fluid-to-laptop(18, 14) fluid-to-laptop(24, 20);
   background-color: var(--color-red-45);
+  text-align: center;
   color: var(--color-white);
   font-weight: 600;
   border: none;
@@ -19,6 +20,7 @@
     color: var(--color-white);
     background-color: var(--color-red-60);
   }
+
   &:active {
     scale: 1.05;
   }
@@ -45,9 +47,14 @@
       }
     }
   }
-
-  &--black-10 {
-    background-color: var(--color-black-10);
+  &--black {
     border: var(--border);
+    &-08 {
+      background-color: var(--color-black-08);
+    }
+
+    &-10 {
+      background-color: var(--color-black-10);
+    }
   }
 }
