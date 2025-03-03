@@ -1,3 +1,5 @@
+import MoviesBanner from "@/sections/MoviesBanner"
+
 export const metadata = {
 	title: 'Movies & Shows',
 	description: 'Stream Vibe is a streaming platform for movies, TV shows, and more.',
@@ -5,7 +7,7 @@ export const metadata = {
 export default function () {
 	return (
 		<>
-			<h1>Фильмы</h1>
+      <MoviesBanner />
 		</>
 	)
 }

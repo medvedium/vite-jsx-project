@@ -4,78 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Hero section done">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/action/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/action/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/action/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/action/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AccordionGroup/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CategoryCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DeviceCard/DeviceCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DeviceCard/DeviceCard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DeviceCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Grid/Grid.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Grid/Grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Grid/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PlanCard/PlanCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PlanCard/PlanCard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PlanCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/Slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Slider/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs/utils/getTabsElementsIdsFromTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Section/Section.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Section/Section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Section/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/SliderCollection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/TabsCollection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/generic/BaseComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Banner/Banner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Banner/Banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Banner/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Categories/Categories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Categories/Categories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Categories/categoryItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Categories/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Devices/Devices.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Devices/Devices.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Devices/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Plans/Plans.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Plans/Plans.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Plans/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Plans/planGroups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Questions/Questions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Questions/Questions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Questions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/getAttrNameFromSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/getIdFromTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/getParams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/pxToRem.js" afterDir="false" />
+    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Main page done">
+      <change afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Content/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Content/Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movies.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +84,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
       </set>
     </attachedChunks>
   </component>
@@ -170,7 +109,12 @@
       <workItem from="1740051130751" duration="1563000" />
       <workItem from="1740299885661" duration="10355000" />
       <workItem from="1740516183045" duration="11929000" />
-      <workItem from="1740575515243" duration="822000" />
+      <workItem from="1740575515243" duration="1707000" />
+      <workItem from="1740649316780" duration="304000" />
+      <workItem from="1740650822524" duration="6359000" />
+      <workItem from="1740688223778" duration="268000" />
+      <workItem from="1740688510611" duration="2153000" />
+      <workItem from="1741027192191" duration="1553000" />
     </task>
     <task id="LOCAL-00001" summary="Main structure done">
       <option name="closed" value="true" />
@@ -204,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739624460474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Main page done">
+      <option name="closed" value="true" />
+      <created>1740576569027</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740576569027</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +166,8 @@
     <MESSAGE value="Main structure done" />
     <MESSAGE value="Header and Footer done" />
     <MESSAGE value="Hero section done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hero section done" />
+    <MESSAGE value="Main page done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main page done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -8,10 +8,16 @@ const Button = (props) => {
     href,
     type = "button",
     target,
+    /*
+     * '' (default) | 'transparent' | 'black-06' | 'black-08' | 'black-10'
+     * */
     mode = "",
     label,
     isLabelHidden = false,
     iconName,
+    /*
+     * 'before' | 'after'
+     * */
     iconPosition = "before",
     hasFillIcon,
     extraAttrs,
