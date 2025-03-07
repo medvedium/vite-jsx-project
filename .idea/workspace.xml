@@ -4,16 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Main page done">
-      <change afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/index.js" afterDir="false" />
+    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Hero banner slider on Movies page done">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/adventure/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/adventure/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/adventure/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/adventure/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/comedy/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/comedy/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/comedy/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/comedy/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/drama/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/drama/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/drama/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/categories/drama/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Badge/Badge.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Badge/Badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Badge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieCard/MovieCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieCard/MovieCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RatingView/RatingView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RatingView/RatingView.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RatingView/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Collections/Collections.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Collections/Collections.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Collections/collectionGroups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Collections/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoryCard/CategoryCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon/Icon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs/Tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs/Tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs/components/TabsNavigation/TabsNavigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/TabsCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/TabsCollection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/movies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movies.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +58,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:medvedium/vite-jsx-project.git",
+    "accountId": "4c179f2b-91b3-4f03-8390-541d7243240e"
+  }
+}]]></component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -64,7 +94,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.11.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.13.2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/frontender/www/stream-vibe/src/assets/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/frontender/www/stream-vibe/src/assets/images/categories&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,6 +108,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images/categories" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
   </component>
@@ -114,7 +145,9 @@
       <workItem from="1740650822524" duration="6359000" />
       <workItem from="1740688223778" duration="268000" />
       <workItem from="1740688510611" duration="2153000" />
-      <workItem from="1741027192191" duration="1553000" />
+      <workItem from="1741027192191" duration="11432000" />
+      <workItem from="1741198258457" duration="5853000" />
+      <workItem from="1741381570656" duration="2055000" />
     </task>
     <task id="LOCAL-00001" summary="Main structure done">
       <option name="closed" value="true" />
@@ -156,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740576569027</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hero banner slider on Movies page done">
+      <option name="closed" value="true" />
+      <created>1741028816919</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741028816919</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +208,8 @@
     <MESSAGE value="Header and Footer done" />
     <MESSAGE value="Hero section done" />
     <MESSAGE value="Main page done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main page done" />
+    <MESSAGE value="Hero banner slider on Movies page done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hero banner slider on Movies page done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

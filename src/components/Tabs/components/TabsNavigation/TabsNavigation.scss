@@ -4,7 +4,7 @@
   --tabsNavigationPadding: #{fluid-to-laptop(10, 8)};
 
   position: relative;
-  display: flex;
+  display: var(--tabsNavigationDisplay, flex);
   padding: var(--tabsNavigationPadding);
   border: var(--border);
   border-radius: var(--border-radius-m);
@@ -31,6 +31,9 @@
   }
 
   &__button {
+    flex-grow: 1;
+    display: inline-flex;
+    justify-content: center;
     position: relative;
     padding: fluid-to-laptop(14, 12) fluid-to-laptop(24, 20);
     border-radius: var(--border-radius-m);

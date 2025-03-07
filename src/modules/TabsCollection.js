@@ -115,8 +115,8 @@ class Tabs extends BaseComponent {
     this.activateTab(this.limitTabsIndex)
   }
 
-  onButtonClick(index) {
-    this.state.activeTabIndex = index
+  onButtonClick(buttonIndex) {
+    this.state.activeTabIndex = buttonIndex
   }
 
   onKeyDown = (event) => {
@@ -161,9 +161,7 @@ class Tabs extends BaseComponent {
 
   bindEvents() {
     this.buttonElements.forEach((buttonElement, index) => {
-      buttonElement.addEventListener("click", () => {
-        this.onButtonClick(index)
-      })
+      buttonElement.addEventListener("click", () => this.onButtonClick(index))
     })
     document.addEventListener("keydown", this.onKeyDown)
   }
