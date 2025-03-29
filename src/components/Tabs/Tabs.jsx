@@ -9,11 +9,17 @@ const Tabs = (props) => {
     title,
     items = [],
     navigationTargetElementId = null,
+    isEnableOnlyOnMobile = false,
   } = props
+
   return (
     <div
-      className={classNames(className, "tabs")}
-      data-js-tabs={JSON.stringify({ navigationTargetElementId })}
+      className={classNames(className, "tabs", {
+        "tabs--enable-only-on-mobile": isEnableOnlyOnMobile,
+      })}
+      data-js-tabs={JSON.stringify({
+        navigationTargetElementId,
+      })}
     >
       {!navigationTargetElementId && (
         <TabsNavigation title={title} items={items} />
@@ -32,7 +38,7 @@ const Tabs = (props) => {
               id={contentId}
               aria-labelledby={buttonId}
               tabIndex={0}
-              data-js-tabs-content={""}
+              data-js-tabs-content=""
               key={index}
             >
               {children}

@@ -3,9 +3,9 @@ import classNames from "classnames"
 import Button from "@/components/Button"
 
 const Socials = (props) => {
-  const { className, links } = props
+  const { className, links = [] } = props
   return (
-    <div className={classNames(className, "sic1als")}>
+    <div className={classNames(className, "soc1als")}>
       <ul className="soc1als__list">
         {links?.map(({ label, iconName, link }, index) => (
           <li key={index} className="soc1als__item">

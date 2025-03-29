@@ -58,7 +58,7 @@ const Slider = (props) => {
         navigationTargetElementId,
       })}
     >
-      <div className="slider__swriper swiper" data-js-slider-swiper={""}>
+      <div className="slider__swiper swiper" data-js-slider-swiper={""}>
         <ul className="slider__list swiper-wrapper">
           {children.map((slide, index) => (
             <li className="slider__item swiper-slide" key={index}>
