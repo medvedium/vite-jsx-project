@@ -24,7 +24,7 @@ const Field = (props) => {
         {label}
         {isRequired && (
           <span className={"field__required-star"} aria-hidden={true}>
-            *
+            &nbsp;*
           </span>
         )}
       </label>
