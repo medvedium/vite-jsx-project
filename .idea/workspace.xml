@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Show page - Episode card structure done">
+      <change afterPath="$PROJECT_DIR$/src/modules/VideoPlayerCollection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EpisodeCard/EpisodeCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EpisodeCard/EpisodeCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Seasons/Seasons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seasons/Seasons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EpisodeCard/EpisodeCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EpisodeCard/EpisodeCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +139,7 @@
       <workItem from="1745866544692" duration="5519000" />
       <workItem from="1746018755006" duration="10000" />
       <workItem from="1746653333547" duration="7948000" />
-      <workItem from="1747116193737" duration="14369000" />
+      <workItem from="1747116193737" duration="18769000" />
     </task>
     <task id="LOCAL-00001" summary="Main structure done">
       <option name="closed" value="true" />
