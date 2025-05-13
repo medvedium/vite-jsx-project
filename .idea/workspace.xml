@@ -4,34 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Bug fix">
-      <change afterPath="$PROJECT_DIR$/src/components/PersonCard/PersonCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PersonCard/PersonCard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PersonCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ratings/Ratings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ratings/Ratings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ratings/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ReviewCard/ReviewCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ReviewCard/ReviewCard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ReviewCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tags/Tags.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tags/Tags.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tags/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/movie.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/MovieBanner/MovieBanner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/MovieBanner/MovieBanner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/MovieBanner/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/MovieDetails/index.js" afterDir="false" />
+    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Movie page done">
+      <change afterPath="$PROJECT_DIR$/src/pages/show.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/ShowBanner/ShowBanner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/ShowBanner/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/movieBanner/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/movie-banner/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieBannerCard/MovieBannerCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/components/SliderNavigation/SliderNavigation.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +138,7 @@
       <workItem from="1745866544692" duration="5519000" />
       <workItem from="1746018755006" duration="10000" />
       <workItem from="1746653333547" duration="7948000" />
-      <workItem from="1747116193737" duration="3098000" />
+      <workItem from="1747116193737" duration="4026000" />
     </task>
     <task id="LOCAL-00001" summary="Main structure done">
       <option name="closed" value="true" />
@@ -219,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743284231137</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Movie page done">
+      <option name="closed" value="true" />
+      <created>1747119326775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747119326775</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +217,8 @@
     <MESSAGE value="Main page done" />
     <MESSAGE value="Hero banner slider on Movies page done" />
     <MESSAGE value="Bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fix" />
+    <MESSAGE value="Movie page done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movie page done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
