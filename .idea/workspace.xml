@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Show page - Created video-player module">
-      <change afterPath="$PROJECT_DIR$/src/components/Field/Field.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Field/Field.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Field/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/support.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Support/Support.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Support/Support.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Support/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Field/Field.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Field/Field.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Field/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Field/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Support/Support.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Support/Support.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Support/Support.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Support/Support.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
       <workItem from="1745866544692" duration="5519000" />
       <workItem from="1746018755006" duration="10000" />
       <workItem from="1746653333547" duration="7948000" />
-      <workItem from="1747116193737" duration="21129000" />
+      <workItem from="1747116193737" duration="23331000" />
     </task>
     <task id="LOCAL-00001" summary="Main structure done">
       <option name="closed" value="true" />
