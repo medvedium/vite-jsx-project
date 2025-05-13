@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Show page - Episode card structure done">
-      <change afterPath="$PROJECT_DIR$/src/modules/VideoPlayerCollection.js" afterDir="false" />
+    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Show page - Created video-player module">
+      <change afterPath="$PROJECT_DIR$/src/components/Field/Field.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Field/Field.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Field/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/support.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Support/Support.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Support/Support.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/Support/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EpisodeCard/EpisodeCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EpisodeCard/EpisodeCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +143,7 @@
       <workItem from="1745866544692" duration="5519000" />
       <workItem from="1746018755006" duration="10000" />
       <workItem from="1746653333547" duration="7948000" />
-      <workItem from="1747116193737" duration="18769000" />
+      <workItem from="1747116193737" duration="21129000" />
     </task>
     <task id="LOCAL-00001" summary="Main structure done">
       <option name="closed" value="true" />
@@ -229,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747130799774</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Show page - Created video-player module">
+      <option name="closed" value="true" />
+      <created>1747142784332</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747142784332</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +258,8 @@
     <MESSAGE value="Show page - added intro block" />
     <MESSAGE value="Show page - main structure done, added accordionGroup" />
     <MESSAGE value="Show page - Episode card structure done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Show page - Episode card structure done" />
+    <MESSAGE value="Show page - Created video-player module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show page - Created video-player module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
