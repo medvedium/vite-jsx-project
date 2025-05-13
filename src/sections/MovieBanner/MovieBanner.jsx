@@ -1,8 +1,8 @@
-import "./MovieBanner.scss"
 import MovieBannerCard from "@/components/MovieBannerCard"
 
 const MovieBanner = () => {
   const titleId = "movie-banner-title"
+
   return (
     <section className="container" aria-labelledby={titleId}>
       <MovieBannerCard

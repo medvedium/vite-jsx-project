@@ -4,7 +4,7 @@ const ShowBanner = () => {
   const titleId = "show-banner-title"
 
   return (
-    <seciton className={"container"} aria-labelledBy={titleId}>
+    <section className={"container"} aria-labelledBy={titleId}>
       <MovieBannerCard
         title={"Stranger Things"}
         titleId={titleId}
@@ -15,7 +15,7 @@ const ShowBanner = () => {
         imgSrc={"/src/assets/images/movie-banner/3.jpg"}
         isSmallPaddingY
       />
-    </seciton>
+    </section>
   )
 }
 
