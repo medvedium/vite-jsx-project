@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Movie page done">
-      <change afterPath="$PROJECT_DIR$/src/pages/show.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/ShowBanner/ShowBanner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/ShowBanner/index.js" afterDir="false" />
+    <list default="true" id="975f9bea-8f7d-4ef5-bd87-22d656d34905" name="Changes" comment="Show page - added intro block">
+      <change afterPath="$PROJECT_DIR$/public/videos/example.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Seasons/Seasons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Seasons/Seasons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Seasons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Seasons/seasonItems.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/show.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/show.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,36 +66,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Node.js.TabsCollection.js.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.11.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.15.15&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/frontender/www/stream-vibe&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/opt/homebrew/lib/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Node.js.TabsCollection.js.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "23.11.0",
+    "javascript.nodejs.core.library.typings.version": "22.15.15",
+    "last_opened_file_path": "/Users/frontender/www/stream-vibe/public/videos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/opt/homebrew/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/videos" />
       <recent name="$PROJECT_DIR$/src/assets/images/categories" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
@@ -138,7 +148,7 @@
       <workItem from="1745866544692" duration="5519000" />
       <workItem from="1746018755006" duration="10000" />
       <workItem from="1746653333547" duration="7948000" />
-      <workItem from="1747116193737" duration="4026000" />
+      <workItem from="1747116193737" duration="6982000" />
     </task>
     <task id="LOCAL-00001" summary="Main structure done">
       <option name="closed" value="true" />
@@ -204,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747119326775</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Show page - added intro block">
+      <option name="closed" value="true" />
+      <created>1747120498670</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747120498670</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +236,8 @@
     <MESSAGE value="Hero banner slider on Movies page done" />
     <MESSAGE value="Bug fix" />
     <MESSAGE value="Movie page done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movie page done" />
+    <MESSAGE value="Show page - added intro block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show page - added intro block" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
