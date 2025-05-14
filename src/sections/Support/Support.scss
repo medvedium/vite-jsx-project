@@ -21,10 +21,10 @@
     width: 100%;
     background-color: var(--color-black-06);
     border: var(--border-width-xl) solid var(--color-black-15);
-    border-radius: var(--border-width-xs);
+    border-radius: var(--border-radius-xs);
 
     @include tablet {
-      border-radius: var(--border-width-xxxs);
+      border-radius: var(--border-radius-xxxs);
     }
   }
 
