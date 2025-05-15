@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Stream Vibe is a streaming platform for movies, TV shows, and more.",
 }
-export default function () {
+export default () => {
   return (
     <>
       <Support />

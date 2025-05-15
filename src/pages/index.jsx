@@ -10,7 +10,7 @@ export const metadata = {
     "Stream Vibe is a streaming platform for movies, TV shows, and more.",
   isHeaderFixed: true,
 }
-export default function () {
+export default () => {
   return (
     <>
       <Hero />

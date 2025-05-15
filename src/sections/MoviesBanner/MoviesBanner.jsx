@@ -10,28 +10,28 @@ const MoviesBanner = () => {
       title: "Avengers : Endgame",
       description:
         "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.",
-      imgSrc: "/src/assets/images/movieBanner/1.jpg",
+      imgSrc: "/src/assets/images/movie-banner/1.jpg",
     },
 
     {
       title: "Avengers : Endgame",
       description:
         "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.",
-      imgSrc: "/src/assets/images/movieBanner/1.jpg",
+      imgSrc: "/src/assets/images/movie-banner/1.jpg",
     },
 
     {
       title: "Avengers : Endgame",
       description:
         "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.",
-      imgSrc: "/src/assets/images/movieBanner/1.jpg",
+      imgSrc: "/src/assets/images/movie-banner/1.jpg",
     },
 
     {
       title: "Avengers : Endgame",
       description:
         "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.",
-      imgSrc: "/src/assets/images/movieBanner/1.jpg",
+      imgSrc: "/src/assets/images/movie-banner/1.jpg",
     },
   ]
 
@@ -51,6 +51,7 @@ const MoviesBanner = () => {
         }}
         navigationPosition={"abs-bottom"}
         hasScrollbarOnMobile={false}
+        navigationJustifyContent={"space-between"}
       >
         {movieCards.map((movieCard, index) => (
           <MovieBannerCard {...movieCard} key={index} />
