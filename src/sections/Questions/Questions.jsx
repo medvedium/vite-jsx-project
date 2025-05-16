@@ -23,7 +23,7 @@ const Questions = () => {
       description={
         "Got questions? We've got answers! Check out our FAQ section to find answers to the most common questions about StreamVibe."
       }
-      actions={<Button href={"/support"} label={"Ask a question"} />}
+      actions={<Button href={"support"} label={"Ask a question"} />}
     >
       <AccordionGroup columns={2}>
         {questionItems.map((question, index) => (

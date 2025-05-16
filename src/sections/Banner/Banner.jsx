@@ -20,7 +20,7 @@ const Banner = () => {
         <Button
           className={"banner__button"}
           label={"Start a Free Trial"}
-          href={"/subscriptions"}
+          href={"subscriptions"}
         />
       </div>
     </section>

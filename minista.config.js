@@ -3,7 +3,7 @@ import path from "path"
 
 export default defineConfig({
   root: "",
-  base: "/",
+  base: process.env.NODE_ENV === "production" ? "/" : "/vite-jsx-project/",
   public: "public",
   out: "dist",
   assets: {

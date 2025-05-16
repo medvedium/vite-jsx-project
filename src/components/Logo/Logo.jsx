@@ -13,7 +13,7 @@ const Logo = (props) => {
     >
       <img
         className={"logo__image"}
-        src="/src/assets/images/logo.svg"
+        src="/vite-jsx-project/logo.svg"
         alt="Logo"
         width={199}
         height={60}
